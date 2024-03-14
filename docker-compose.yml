@@ -8,7 +8,7 @@ services:
     ports:
       - '80:80'
     volumes:
-      - ./:/var/www/html
+      - ./codigos:/var/www/html
     # depends_on:
     #   - mysqldb
     # links:
