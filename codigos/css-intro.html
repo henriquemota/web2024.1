@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducao ao CSS</title>
+  <style>
+    a {
+      text-decoration: none;
+      font-size: 32px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    nav a:hover {      
+      font-size: 64px;
+      font-weight: bolder;
+    }
+    h1 {
+      text-transform: uppercase;
+    }
+    h1#titulo-principal {
+      font-size: 64px;
+      color: #ff0000;
+    }
+    h1.titulo-par {
+      color: #0000ff;
+    }
+    .negrito {
+      font-weight: lighter;
+    }
+    h1 > div {
+      font-size: 120px;
+    }
+    section + div  {
+      padding: 80px;
+      background-color: #cccccc;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="">Item 1</a></li>
+      <li><a class="negrito" href="">Item 2</a></li>
+      <li><a href="">Item 3</a></li>
+      <li><a class="negrito" href="">Item 4</a></li>
+    </ul>    
+  </nav>
+  
+  <h1 id="titulo-principal">Titulo 1</h1>
+  <h1 class="titulo-par">Titulo 2</h1>
+  <h1 class="negrito">Titulo 3</h1>
+  <h1 class="titulo-par">Titulo 4</h1>
+  
+  <div>    
+    <h1 id="titulo-principal">Titulo 1</h1>
+    <span>      
+      <h1 id="titulo-principal">Titulo 1</h1>
+    </span>
+  </div>
+
+  <div>
+    div
+  </div>
+  <section>
+    sessao 1
+  </section>
+
+</body>
+</html>
