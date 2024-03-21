@@ -1,0 +1,6 @@
+h1 {
+  font-size: 24px;
+  font-weight: bolder;
+  color: #00ff00;
+  text-transform: lowercase !important;
+}
